@@ -9,3 +9,5 @@ application with "app name" Product_Service
 http://localhost:8888/Product_Service/dev - will retrieve the configurations for dev environment.
 
 For each request the server clones a copy of the requested resource
+
+https://dzone.com/articles/spring-cloud-config-server-mongodb
