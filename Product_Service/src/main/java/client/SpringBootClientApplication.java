@@ -20,7 +20,7 @@ public class SpringBootClientApplication {
 @RestController
 class MessageRestController {
 
-    @Value("${message:Hello default}")
+    @Value("${user.max-connections:Hello default}")
     private String message;
 
     @RequestMapping("/message")
